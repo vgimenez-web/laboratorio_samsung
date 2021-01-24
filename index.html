@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./css/index.css" type="text/css">
 </head>
 
-<body>
+<body onload="JavaScript:{setInitialValues()}">
     <div>
-        <form id='altaTelefonica' onsubmit="JavaScript:{ProcesarFormulario(this);}">
+        <form id='altaTelefonica' onsubmit="JavaScript:{procesarFormulario(this);}">
             <h1 class="titulo">Informaci&oacute;n Formulario Alta Telefonica</h1>
             <fieldset>
 
@@ -100,10 +100,10 @@
             <input type="reset" value="Borrar Datos" Class=botones /><br />
 
         </form>
-        <button onclick="javascript:{MostrarCuenta();}" Class=botones>Mostrar
+        <button onclick="javascript:{mostrarCuenta();}" Class=botones>Mostrar
             Cuenta</button>
-        <button onclick="javascript:{MostrarValoracion();}" Class=botones>Mostrar Valoraci&oacuten</button>
-        <button onclick="javascript:{MostrarFecha();}" Class=botones>Mostrar Dia Semana</button>
+        <button onclick="javascript:{mostrarValoracion();}" Class=botones>Mostrar Valoraci&oacuten</button>
+        <button onclick="javascript:{mostrarFecha();}" Class=botones>Mostrar Dia Semana</button>
 
 
     </div>

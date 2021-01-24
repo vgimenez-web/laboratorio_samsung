@@ -1,10 +1,14 @@
-const ProcesarFormulario = (f)=>{
-   alert("se ha enviado el formulario");
-
-
+const setInitialValues = () =>{
+    const currentDate = new Date();
+    const dateSplitted=currentDate.toISOString().split("T");
+    document.getElementById("date").value = dateSplitted[0];
 }
 
-const MostrarCuenta = ()=>{
+const procesarFormulario = ()=>{
+   alert("se ha enviado el formulario");
+}
+
+const mostrarCuenta = ()=>{
 
     pais = document.getElementById("pais").value;
     iban= document.getElementById("iban").value;
@@ -22,12 +26,12 @@ const MostrarCuenta = ()=>{
     
 }
 
-const MostrarValoracion=()=>{
+const mostrarValoracion=()=>{
     punto = document.getElementById("points").value;
     alert("Has valorado con "+punto);
 }
 
-const MostrarFecha=()=>{
+const mostrarFecha=()=>{
 
     
     if (document.getElementById("date").value == ""){
