@@ -1,0 +1,38 @@
+div {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 12px;
+}
+
+.titulo {
+  text-align: center;
+  color: rgb(9, 117, 241);
+  text-shadow: -3px 3px 0 rgb(238, 235, 91);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 12px;
+  background-color: rgb(248, 247, 169);
+  margin: 2px 0;
+  border: 1px grey solid;
+}
+
+legend {
+  background-color: red;
+  color: white;
+}
+
+fieldset {
+  background-color: lightblue;
+  border-radius: 5px;
+  border: 1px lightblue;
+  margin: 15px;
+}
+.botones {
+  border-radius: 5px;
+  border: 1px grey solid;
+  margin: 2px;
+}
